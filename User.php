@@ -10,11 +10,16 @@ class User
 
     public function getUsers()
     {
-        return "Users";
+        return "Users index";
     }
 
     public function updateUser($user, $id)
     {
         return "User updated";
+    }
+
+    public function getUserAge($user)
+    {
+        return "Age of user is ".rand(10,40);
     }
 }
