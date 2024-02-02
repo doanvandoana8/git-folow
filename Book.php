@@ -10,6 +10,6 @@ class Book
 
     public function getAuthorOfBook($id)
     {
-        return "Author of book is ".random_bytes(10);
+        return "Author of book is ".random_bytes(10) . " Asia";
     }
 }
