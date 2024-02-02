@@ -12,4 +12,9 @@ class User
     {
         return "Users";
     }
+
+    public function updateUser($user, $id)
+    {
+        return "User updated";
+    }
 }
